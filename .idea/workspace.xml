@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a75d4e0-1e37-4e5f-890d-6099647427dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GxQzM3kqEGNyNS2uk0x4BDR7Zt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/odb" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.odb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ODB23\Desktop\console-search-engine\src\com\odb" />
+      <recent name="C:\Users\ODB23\Desktop\console-search-engine\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.odb.WebSearchEngine" />
+      <module name="console-search-engine" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a75d4e0-1e37-4e5f-890d-6099647427dc" name="Default Changelist" comment="" />
+      <created>1667328017314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667328017314</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="129" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1667848935163">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="129" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1667848935163" />
+    <state x="413" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1667893990169">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1667893990169" />
+    <state x="388" y="117" key="FileChooserDialogImpl" timestamp="1667861240792">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="388" y="117" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1667861240792" />
+    <state width="509" height="611" key="GridCell.Tab.0.bottom" timestamp="1667894670281">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="509" height="611" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1667894670281" />
+    <state width="509" height="611" key="GridCell.Tab.0.center" timestamp="1667894670280">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="509" height="611" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1667894670280" />
+    <state width="509" height="611" key="GridCell.Tab.0.left" timestamp="1667894670280">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="509" height="611" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1667894670280" />
+    <state width="509" height="611" key="GridCell.Tab.0.right" timestamp="1667894670281">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="509" height="611" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1667894670281" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1667861247124">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1667861247124" />
+    <state x="399" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1668293148715">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="399" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1668293148715" />
+    <state x="0" y="0" key="new project wizard" timestamp="1667331122912">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1667331122912" />
+  </component>
+</project>
