@@ -1,33 +1,15 @@
 package com.odb;
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SearchWord {
 
-	public static int wordSearch(File filePath, String word){
+	public static int wordSearch(String data, String word){
 		int counter=0;
-		String data="";
-		try
-		{
-			BufferedReader Object = new BufferedReader(new FileReader(filePath));
-			String line = null;
-			
-			while ((line = Object.readLine()) != null){
-				data= data+line;
-			}
-			Object.close();
-		}
-		catch(Exception e)
-		{
-			System.out.println("Exception:"+e);
-		}
-		// Finding the position of the word...............
 		String txt = data;
 			
 		int offset1a = 0;
@@ -37,14 +19,9 @@ public class SearchWord {
 			offset1a = searchWord(word, txt.substring(loc));
 			if ((offset1a + loc) < txt.length()) {
 				counter++;
-				System.out.println("\n"+word+ " at position " + (offset1a + loc));  //printing position of word
 			}
 		}
-		if(counter!=0)	{		
-			System.out.println("-------------------------------------------------");
-			System.out.println("\nFound in "+filePath.getName()); // Founded from which text file..
-			System.out.println("-------------------------------------------------");
-		}
+		
 		return counter;
 	}
 
@@ -55,8 +32,8 @@ public class SearchWord {
 	}
 	
 	//finds strings with similar pattern and calls edit distance() on those strings
-	public static void findData(File sourceFile, int fileNumber, Matcher matcher, String p1) throws FileNotFoundException, ArrayIndexOutOfBoundsException {
-		EditDistance.findWord(sourceFile, fileNumber, matcher, p1);
+	public static void findData(Result res, int fileNumber, Matcher matcher, String p1) throws FileNotFoundException, ArrayIndexOutOfBoundsException {
+		EditDistance.findWord(res, fileNumber, matcher, p1);
 	}
 	
 	/**
@@ -74,13 +51,12 @@ public class SearchWord {
 		Matcher m3 = r3.matcher(line);
 		int fileNumber=0;
 		
-		File dir = new File(System.getProperty("user.dir")+ WebSearchEngine.FILE_PATH);
-		File[] fileArray = dir.listFiles();
-		for(int i=0 ; i<fileArray.length ; i++)
+		ArrayList<Result> results = WebSearchEngine.results;
+		for(int i=0 ; i<results.size() ; i++)
 		{
 			try
 			{
-				findData(fileArray[i],fileNumber,m3,p1);
+				findData(results.get(i),fileNumber,m3,p1);
 				fileNumber++;
 			} 
 			catch(FileNotFoundException e) {

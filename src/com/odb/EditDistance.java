@@ -1,8 +1,7 @@
 package com.odb;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.StringReader;
 import java.util.regex.Matcher;
 
 /**
@@ -63,11 +62,11 @@ public class EditDistance {
 	 * @param matcher
 	 * @param p1
 	 */
-	public static void findWord(File sourceFile, int fileNumber, Matcher matcher, String p1)
+	public static void findWord(Result res, int fileNumber, Matcher matcher, String p1)
 	{
 		try
     	{
-			BufferedReader reader = new BufferedReader(new FileReader(sourceFile));
+			BufferedReader reader = new BufferedReader(new StringReader(res.getText()));
 			String line = null;
 			
 			while ((line = reader.readLine()) != null){
