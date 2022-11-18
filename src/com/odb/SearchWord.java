@@ -93,7 +93,7 @@ public class SearchWord {
 
 		System.out.println("Did you mean? ");
 		int i=0;
-		for(Map.Entry entry: WebSearchEngine.numbers.entrySet()){
+		for( Map.Entry<String, Integer> entry: WebSearchEngine.numbers.entrySet()){
 			if(allowedDistance == entry.getValue()) {
 				i++;
 				System.out.print("("+i+") "+entry.getKey()+"\n");

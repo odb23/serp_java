@@ -31,19 +31,19 @@ public class WebSearchEngine {
         if (!result) return;
 
         Hashtable<String, Integer> occurrs = new Hashtable<String, Integer>();
-        long fileNumber = 0;
+        
         int occur = 0;
         int pg = 0;
 
         try {
             File[] fileArray = dir.listFiles();
+
             for (int i = 0; i < fileArray.length; i++) {
                 // Searching the word given as an input.
                 occur = SearchWord.wordSearch(fileArray[i], searchTerm);
                 occurrs.put(fileArray[i].getName(), occur);
                 if (occur != 0)
                     pg++;
-                fileNumber++;
             }
 
             if (pg == 0) {

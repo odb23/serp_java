@@ -11,7 +11,7 @@ public class Sorting {
 	public static void pageSort(Hashtable<?, Integer> t, int occur)
 	{
 		 //Transfer as List and sort it
-	       ArrayList<Map.Entry<?, Integer>> l = new ArrayList(t.entrySet());
+	       ArrayList<Map.Entry<?, Integer>> l = new ArrayList<>(t.entrySet());
 	       Collections.sort(l, new Comparator<Map.Entry<?, Integer>>(){
 
 	         public int compare(Map.Entry<?, Integer> o1, Map.Entry<?, Integer> o2) {
